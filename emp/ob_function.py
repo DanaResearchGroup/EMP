@@ -54,7 +54,7 @@ def calculate_ob_percentage(molecule):
         n_atoms = carbon_count + hydrogen_count + oxygen_count + metal_count
         ob1600_percentage = (-1600 / mw) * (2 * carbon_count + hydrogen_count / 2 + metal_count - oxygen_count)
         ob100_percentage = (100 / n_atoms) * (oxygen_count - 2 * carbon_count - hydrogen_count / 2)
-        return ob1600_percentage, ob100_percentage,mw, hydrogen_count, oxygen_count, carbon_count
+        return ob1600_percentage, ob100_percentage
 
     except Exception as e:
         print(f"Error calculating OB%: {e}")
