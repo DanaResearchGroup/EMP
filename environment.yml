@@ -19,3 +19,4 @@ dependencies:
       - py3Dmol
       - chemprop
       - pytorch-lightning
+      - lightning
