@@ -1,10 +1,10 @@
-name: empenv
+name: empe
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
-  - numpy
+  - python=3.11.5
+  - numpy=1.26.4
   - scipy
   - pandas
   - matplotlib
@@ -17,6 +17,7 @@ dependencies:
   - pip:
       - selfies
       - py3Dmol
-      - chemprop
+      - chemprop==2.1.0
       - pytorch-lightning
       - lightning
+
