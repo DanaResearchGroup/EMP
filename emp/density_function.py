@@ -44,6 +44,3 @@ def predict_density(molecule):
     except Exception as e:
         print(f"Error predicting density: {e}")
         return None
-
-
-print(predict_density("CC1=C(C=C(C=C1)[N+](=O)[O-])[N+](=O)[O-]"))

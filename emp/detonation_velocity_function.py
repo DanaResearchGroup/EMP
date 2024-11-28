@@ -44,5 +44,3 @@ def predict_detonation_velocity(molecule):
         print(f"Error predicting velocity: {e}")
         return None
 
-
-print(predict_detonation_velocity("CC1=C(C=C(C=C1)[N+](=O)[O-])[N+](=O)[O-]"))

@@ -43,6 +43,3 @@ def predict_detonation_pressure(molecule):
     except Exception as e:
         print(f"Error predicting pressure: {e}")
         return None
-
-
-print(predict_detonation_pressure("O=N(=O)N1CN(N(=O)=O)CC(N(F)F)(N(F)F)C1"))

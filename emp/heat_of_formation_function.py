@@ -42,6 +42,3 @@ def predict_heat_of_formation(molecule):
     except Exception as e:
         print(f"Error predicting heat of formation: {e}")
         return None
-
-
-print(predict_heat_of_formation("O=C1N(N(=O)=O)CN(N(=O)=O)CN1N(=O)=O"))

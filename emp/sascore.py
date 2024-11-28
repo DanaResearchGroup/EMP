@@ -1,5 +1,5 @@
 from rdkit import Chem
-from sascore_helpers import sascorer as sa
+from emp.sascore_helpers import sascorer as sa
 
 def calculate_sascore(molecule):
     """
@@ -28,7 +28,3 @@ def calculate_sascore(molecule):
         sascore = None
     return sascore
 
-smi = "O=C(C)Oc1ccccc1C(=O)O"
-mol = Chem.MolFromSmiles(smi)
-print(calculate_sascore(smi))
-print(calculate_sascore(mol))
