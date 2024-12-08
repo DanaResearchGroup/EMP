@@ -17,3 +17,4 @@ if __name__ == "__main__":
     # Compute and display the oxygen balance
     oxygen_balance = compute_oxygen_balance(molecular_formula)
     print(f"The oxygen balance of the molecule is: {oxygen_balance:.2f}%")
+gsafad
